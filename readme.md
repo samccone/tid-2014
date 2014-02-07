@@ -1,8 +1,7 @@
-# Roots Template: tid_workshop_2014
+# tid workshop_2014 website
 
-tid workshop 2014
 
-Setup
+Setup && Dev
 -----
 
 - make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed

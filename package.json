@@ -1,6 +1,11 @@
 {
   "name": "tid_workshop_2014",
   "description": "tid workshop 2014",
+  "subdomain": "tidworkshop2014",
+  "domains": [
+    "tidworkshop.org",
+    "www.tidworkshop.org"
+  ],
   "dependencies": {
     "jade": "1.x.x",
     "marked": "0.3.x",
@@ -8,6 +13,14 @@
     "coffee-script": "1.x.x",
     "autoprefixer-stylus": "0.0.x",
     "axis-css": "0.2.x",
-    "rupture": "0.0.x"
+    "rupture": "0.0.x",
+    "express": "~3.4.8"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "version": "0.0.0",
+  "engines": {
+    "node": "0.10.x"
   }
 }

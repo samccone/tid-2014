@@ -30,6 +30,7 @@ main
     font-size: 25px
 
   p
+    max-width: 250px
     font-size: 14px
     line-height: 20px
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -37,7 +38,7 @@ main
       font-size: 11px
 
 a.attend
-  border: solid 1px #FFF
+  border: solid 2px #FFF
   border-radius: 3px
   display: inline-block
   padding: 10px 40px
@@ -45,17 +46,20 @@ a.attend
   cursor: pointer
   color: #FFF
   text-decoration: none
+  font-weight: bold
 
 .col-half
   width: 50%
   max-width: 400px
   float: left
-  padding: 25px
+  margin: 25px
 
   +below(900px)
     width: 100%
     p
       max-width: 450px
+    &.second-staff h4
+      display: none
 
 .staff-list
   padding-top: 10px

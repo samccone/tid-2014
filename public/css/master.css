@@ -114,6 +114,12 @@ h1 {
   font-size: 70px;
 }
 
+.contacts a {
+  display: inline-block;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
 main {
   max-width: 900px;
   margin: 0 auto;
@@ -131,13 +137,19 @@ main p {
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-.attend {
+main p.tiny {
+  font-size: 11px;
+}
+
+a.attend {
   border: solid 1px #fff;
   border-radius: 3px;
   display: inline-block;
   padding: 10px 40px;
   margin-top: 50px;
   cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
 
 .col-half {
@@ -176,6 +188,7 @@ header {
   color: #fff;
   text-align: center;
   position: relative;
+  max-height: 800px;
 }
 
 header .contents {
@@ -215,4 +228,5 @@ header .overlay {
 
 header img {
   max-width: 100%;
+  max-height: 800px;
 }
